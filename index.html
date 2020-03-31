@@ -190,7 +190,24 @@ https://twitter.com/cnoss
     </figure>
 
 
+    <!-- ContentBlock Textblock mittig 
+        ####################################################################-->
+    <figure class="m-portfolioItemCentered is-big">
+      <figcaption>
+        <h2 class="m-portfolioItemCentered-title ">Einleitung</h2>
+        <!--   <h3 class="m-portfolioItemCentered-subtitle">Ein kleiner Untertitel.</h3> -->
 
+        Das Design ist optisch modern und möglichst einfach konzipiert, es reduziert sich auf notwendige Funktionen.
+        Aufgrund der dunklen Ränder gibt es einen starken Kontrast zu den Karten. Diese werden unter anderem besonders
+        hervorgehoben und geben dem User bei der Benutzung eines solch großen Touchscreens, einen vorgegebenen
+        sichtbaren „Tunnel“, dadurch fühlt sich der User nicht erschlagen. Denn er kann sich abwechselnd auf die
+        Bereiche entweder außerhalb der Karten, mit den Einstellungsmöglichkeiten oder innerhalb mit dem Lesen und
+        Stöbern beschäftigen. Er kann seinen aktiven Wahrnehmungsbereich unter anderem noch mit dem Glossar weiter
+        einschränken. Das Neu laden der Karten beim Herunterscrollen, verleiht dem User eine einfache Bedienung und ein
+        Gefühl der Zeitlosigkeit.
+
+      </figcaption>
+    </figure>
 
 
     <!-- ContentBlock 1/3 Bild 2/3 Text 
@@ -202,14 +219,17 @@ https://twitter.com/cnoss
       <figcaption>
 
         <p>
-          Die Filter sind im unteren Bereich und im linken Bereich dauerhaft sichtbar, aktive Filter werden hell
-          hinterlegt. Wenn es unter Kategorien zu einem Filter gibt, erscheint eine weitere Filterleiste. Sobald es zu
-          viele Filter geben sollte, ist es möglich die Filter nach links und rechts zu Scrollen.
+          Die Filter sind optisch schlicht und geben einen modernen Touch, sie werden als zusammen hörig aufgefasst, und
+          wenn die Unterkategorien dazukommen, werden diese als eine zusammenhängende Einheit gesehen, weil in der
+          Oberkategorie das dazugehörige Element aufgehellt wird.
         </p>
-        <p>Die Zeitleiste verhält sich interaktiv zu der Scroll leiste. Die maximale Größe beträgt 2940 Pixel, die Größe
-          der Leiste verhält sich proportional mit der Anzahl der Karten, die in dem jeweilig gewünschten Zeitraum zur
-          Verfügung stehen. Es entsteht eine prozentuale Verteilung der Größe hinsichtlich des kompletten Archivs.
-          Dadurch merkt der Benutzer in welchen Jahren es mehr Einträge gibt und in welchen weniger.
+        <p>Die Zeitleiste hängt interaktiv mit der Scroll leiste auf der rechten Seite zusammen. Sie steuert den
+          kompletten Wertebereich der Scroll Leiste. Um den Werteberich zu verstellen, zieht der User an den gelben
+          linken Enden, entweder nach rechts (Jahreszahl erhöhen) oder nach links (Jahreszahl mindern).
+          Hierbei entsteht ein prozentualer Größenunterschied, je mehr Karten es in einem Jahr gibt, desto größer ist
+          der Anteil für die Zeitleiste. Basierend auf den Karten des kompletten Archivs, werden die Prozente auf eine
+          maximale Länge von 2940 Pixeln aufgeteilt.
+
         </p>
       </figcaption>
     </figure>
@@ -223,33 +243,29 @@ https://twitter.com/cnoss
       <figcaption>
         <img class="m-portfolioItem-image" src="img\Scroll_Leiste_mitZahlen.png">
         <h3 class="m-portfolioItem-subtitle">Scroll Leiste</h3>
-        <p>Diese Leiste verhält sich wie eine endlosschleife, wenn die Jahreszahlen unten ausfliegen fliegen sie oben
-          wieder ein. Der Wertebereich wird durch die Zeitleiste festgelegt.</p>
-        <p>
-          Der Wertebereich wird durch die Zeitleiste vorgegeben.
+        <p>Die Scroll Leiste übernimmt den Wertebereich vom Zeitstrahl und verhält sich wie eine Endlosschleife, dafür
+          steht eine Bubble für ein Jahr. In der Mitte der Scroll Leiste wird das aktuelle Jahr, der zusehenden Karten
+          angezeigt. So ist es möglich schnell durch die Karten und Jahre zu gelangen, jedoch auch um beim langsamen
+          Suchen wird die Orientierung gewährleistet. Es entsteht eine einfach explorative Suche durch das komplette
+          Archiv.
         </p>
       </figcaption>
       <figcaption>
         <img class="m-portfolioItem-image" src="img\Extended_ausgefuellt.png">
-        <h3 class="m-portfolioItem-subtitle">Die extended Card</h3>
-        <p>Durch einen Klick auf eine Karte, werden die Details dazu angezeigt. Schließen lässt sich dies indem man
-          nochmal draufklickt oder eine neue Karte öffnet. Des Weiteren lässt sich diese auch durch das Verändern der
-          Filter schließen, jedoch nicht durch das Öffnen des Glossars.
-          Es wird beim Herunterscrollen immer weiter eine Neue Seite geladen, sodass es immer Karten zu sehen gibt. Es
-          sei denn es gibt keine neuen Karten mehr.
-          Der Favoriten Button, speichert eure Karten unter den Reiter Favoriten.
+        <h3 class="m-portfolioItem-subtitle">Extended Card</h3>
+        <p>Die Extended Card, gibt eine Vorschau mit dem kompletten Bild und aller nötigen Informationen an, sie kann
+          durch ein Antippen auf eine Details Card erweitert werden, des Weiteren kann sie Karten zu den Favoriten
+          hinzufügen und entfernen.
         </p>
       </figcaption>
 
       <figcaption>
         <img class="m-portfolioItem-image" src="img\Details_ausgefuellt.png">
-        <h3 class="m-portfolioItem-subtitle">Die details Card</h3>
-        <p>Durch einen Klick auf eine Karte, werden die Details dazu angezeigt. Schließen lässt sich dies indem man
-          nochmal draufklickt oder eine neue Karte öffnet. Des Weiteren lässt sich diese auch durch das Verändern der
-          Filter schließen, jedoch nicht durch das Öffnen des Glossars.
-          Es wird beim Herunterscrollen immer weiter eine Neue Seite geladen, sodass es immer Karten zu sehen gibt. Es
-          sei denn es gibt keine neuen Karten mehr.
-          Der Favoriten Button, speichert eure Karten unter den Reiter Favoriten.
+        <h3 class="m-portfolioItem-subtitle">Details Card</h3>
+        <p>Die Details Card, zeigt alle nötigen Informationen und ein verkleinertes dafür klares Bild an, um sich ein
+          klares Bild über das Thema zu machen. Von der Details Card kommt man entweder über den Button zurück oder über
+          ein wiederholtes Klicken der Karte. Diese Karte ist sehr einfach gestaltet und auf das wichtigste und nötigste
+          reduziert. Durch das Herz kann diese Karte den Favoriten hinzugefügt und entfernt werden.
         </p>
       </figcaption>
 
